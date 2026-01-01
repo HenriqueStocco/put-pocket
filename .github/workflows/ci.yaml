@@ -1,0 +1,18 @@
+name: "Base"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  quality:
+    runs-on: ubuntu-22.04
+    permissions: read-all
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Echo
+        run: |
+          echo "Already to crash ✅"
