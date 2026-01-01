@@ -1,0 +1,7 @@
+{
+  "name": "PUT Pocket project",
+  "description": "Ambiente de desenvolvimento do projeto PUT Pocket feito com Bun e TypeScript na base",
+  "service": "app",
+  "workspaceFolder": "/app/${localWorkspaceFolderBasename}",
+  "dockerComposeFile": "docker-compose.yaml"
+}
