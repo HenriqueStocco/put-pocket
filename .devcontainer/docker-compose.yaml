@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: ./Dockerfile
+    container_name: put-pocket-env
+    image: put-pocket-env
+    volumes:
+      - ..:/home/bun/app:cached
+    command: sleep infinity

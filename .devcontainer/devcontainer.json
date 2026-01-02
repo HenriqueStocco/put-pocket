@@ -1,0 +1,7 @@
+{
+  "name": "PUT Pocket project",
+  "description": "Personal Utilitty Tools Pocket project",
+  "dockerComposeFile": "./docker-compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/home/bun/app"
+}
