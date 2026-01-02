@@ -5,8 +5,8 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "knip": "bunx knip --config=./knip.json"
   },
   "dependencies": {
     "expo": "~54.0.30",

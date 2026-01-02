@@ -1,0 +1,33 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["index.ts"],
+  "project": [
+    "**/*.{ts,tsx, js, jsx}",
+    "!src/tests/**/*",
+    "!.expo",
+    "!**/*.json",
+    "!**/*.jsonc",
+    "!**/*.toml",
+    "!**/*.yaml",
+    "!**/*.spec",
+    "!**/*.test",
+    "!**/*.md",
+    "!**/*.sh",
+    "!node_modules"
+  ],
+  "ignore": [
+    ".devcontainer/**",
+    ".git/**",
+    ".githooks/**",
+    "scripts/**",
+    "babel.config.js",
+    "metro.config.js",
+    "node_modules",
+    "**/*.json",
+    "**/*.jsonc",
+    "**/*.spec",
+    "**/*.test",
+    "app.json",
+    "package.json"
+  ]
+}
