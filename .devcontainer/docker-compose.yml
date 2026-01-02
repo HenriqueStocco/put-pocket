@@ -1,7 +1,0 @@
-services:
-  bun:
-    image: put-pocket-bun-v1-3-5
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    container_name: put-pocket-dev-env
